@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /filestructure.json
+
+Allow: /blog/
+
+Allow: /blog/*.html
+
+Sitemap: https://yourwebsite.com/sitemap.xml
